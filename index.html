@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portfolio d’Omar Dayan, étudiant ingénieur en mécatronique : robotique, ROS2, LiDAR, SLAM, cartographie 3D, GNSS/INS et automatisme."
+    />
+    <meta property="og:title" content="Omar Dayan | Portfolio Mécatronique & Robotique" />
+    <meta
+      property="og:description"
+      content="Portfolio d’Omar Dayan, étudiant ingénieur en mécatronique en robotique, perception et automatisme."
+    />
+    <meta property="og:type" content="website" />
+    <title>Omar Dayan | Portfolio Mécatronique & Robotique</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Navigation principale">
+        <a href="#accueil" class="brand">OMAR DAYAN</a>
+        <div class="nav-links">
+          <a href="#accueil">Accueil</a>
+          <a href="#apropos">À propos</a>
+          <a href="#projets">Projets</a>
+          <a href="#competences">Compétences</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section id="accueil" class="hero">
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">Étudiant ingénieur en mécatronique</p>
+            <h1>OMAR DAYAN</h1>
+            <p class="hero-tagline">Robotique • ROS2 • LiDAR • SLAM • Automatisme • Vision • CAO</p>
+            <p class="lead">
+              Étudiant ingénieur en mécatronique à l’INSA Hauts-de-France, je conçois des systèmes robotiques et intelligents
+              combinant perception, localisation, automatisation et conception mécatronique.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#projets">Voir mes projets</a>
+              <a class="button secondary" href="https://www.linkedin.com/in/omar-dayan-1240782a7/" target="_blank" rel="noreferrer">LinkedIn</a>
+              <a class="button tertiary" href="assets/documents/CV_Omar_Dayan.pdf" target="_blank" rel="noreferrer">Voir mon CV</a>
+            </div>
+            <div class="hero-contact" aria-label="Coordonnées de contact">
+              <span>Valenciennes, France</span>
+              <a href="mailto:dayanomarabd@gmail.com">dayanomarabd@gmail.com</a>
+              <a href="tel:+33625425821">+33 6 25 42 58 21</a>
+            </div>
+          </div>
+          <div class="hero-panel" aria-label="Carte technique d’introduction">
+            <div class="mini-card">
+              <span class="card-label">Expérience</span>
+              <strong>Orange Innovation</strong>
+              <small>Stage 2026 • LiDAR / cartographie mobile</small>
+            </div>
+            <div class="mini-card accent">
+              <span class="card-label">Focus</span>
+              <strong>ROS2 • SLAM • Multicapteurs</strong>
+              <small>Localisation, perception et cartographie 3D</small>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="apropos" class="section">
+        <div class="container narrow">
+          <div class="section-heading">
+            <p class="eyebrow">À propos</p>
+            <h2>Étudiant ingénieur en mécatronique orienté systèmes intelligents</h2>
+          </div>
+          <p>
+            Je suis étudiant ingénieur en mécatronique à l’INSA Hauts-de-France, avec un intérêt marqué pour le développement
+            de systèmes multidisciplinaires associant mécanique, électronique, logiciel, capteurs, perception et automatisme.
+            J’aime travailler sur des architectures robotiques et embarquées où la localisation, la perception et l’intégration
+            mécanique sont autant de leviers pour améliorer la performance d’un système.
+          </p>
+        </div>
+      </section>
+
+      <section id="projets" class="section alt">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projets</p>
+            <h2>Expériences techniques et projets de conception</h2>
+          </div>
+
+          <div class="project-grid">
+            <article class="project-card featured">
+              <img src="assets/images/orange/nuage_colorise_3d.png" alt="Nuage de points 3D colorisé obtenu lors de la cartographie mobile" loading="lazy" />
+              <div class="project-card-body">
+                <span class="project-type">Stage ingénieur • Orange Innovation</span>
+                <h3>LiDAR / Mobile Mapping</h3>
+                <p>
+                  Conception et intégration d’un système d’acquisition 3D embarqué pour la cartographie mobile et l’inspection d’infrastructures de télécommunications.
+                </p>
+                <div class="tag-list">
+                  <span>ROS2</span>
+                  <span>Livox Mid-70</span>
+                  <span>SLAM</span>
+                  <span>RTAB-Map</span>
+                  <span>RealSense</span>
+                </div>
+                <a href="#orange" class="text-link">Voir le projet</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="assets/images/fablab/fablab_experimentale1.jpg" alt="Montage expérimental d’un système de mesure d’impacts" loading="lazy" />
+              <div class="project-card-body">
+                <span class="project-type">Stage • IEMN / FabLab</span>
+                <h3>Système de mesure de force intégré aux vêtements</h3>
+                <p>
+                  Conception et expérimentation d’un système embarqué destiné à détecter et analyser des impacts sur un vêtement à l’aide de capteurs piézoélectriques, d’une chaîne de conditionnement et d’un Arduino.
+                </p>
+                <div class="tag-list">
+                  <span>Arduino</span>
+                  <span>Capteurs piézoélectriques</span>
+                  <span>Électronique embarquée</span>
+                  <span>KiCad</span>
+                </div>
+                <a href="#fablab" class="text-link">Voir le projet</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="assets/images/codesys/feu_de_circulation.png" alt="Schéma de feux de circulation et séquence logique" loading="lazy" />
+              <div class="project-card-body">
+                <span class="project-type">Projet personnel • Automatisme</span>
+                <h3>Commande de feux de circulation sous CODESYS</h3>
+                <p>
+                  Programmation en Ladder d’un cycle séquentiel pour deux directions de trafic, avec temporisations et logique de sécurité.
+                </p>
+                <div class="tag-list">
+                  <span>CODESYS</span>
+                  <span>PLC</span>
+                  <span>Ladder</span>
+                  <span>HMI</span>
+                  <span>TON</span>
+                </div>
+                <a href="#codesys" class="text-link">Voir le projet</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="assets/images/plp/plp14.jpeg" alt="Prototype de micro-pince souple et plateforme d’actionnement" loading="lazy" />
+              <div class="project-card-body">
+                <span class="project-type">Projet académique • Micro-systèmes</span>
+                <h3>Plateforme d’actionnement pour micro-pinces souples</h3>
+                <p>
+                  Intégration mécanique et électronique d’une plateforme d’actionnement pour micro-pinces souples avec validation expérimentale et PCB dédié.
+                </p>
+                <div class="tag-list">
+                  <span>KiCad</span>
+                  <span>PCB</span>
+                  <span>Conception</span>
+                  <span>Actionnement</span>
+                  <span>Prototype</span>
+                </div>
+                <a href="#plp" class="text-link">Voir le projet</a>
+              </div>
+            </article>
+
+            <article class="project-card">
+              <img src="assets/images/solidworks/CAO_1.png" alt="Exercice de modélisation mécanique sous SolidWorks" loading="lazy" />
+              <div class="project-card-body">
+                <span class="project-type">Travaux personnels • CAO</span>
+                <h3>Modélisation 3D sous SolidWorks</h3>
+                <p>
+                  Réalisation de pièces mécaniques en 3D afin de mettre en pratique les fonctions de modélisation paramétrique, d’esquisse, d’extrusion et de création de géométries mécaniques.
+                </p>
+                <div class="tag-list">
+                  <span>SolidWorks</span>
+                  <span>CAO</span>
+                  <span>Modélisation 3D</span>
+                  <span>Conception mécanique</span>
+                </div>
+                <a href="#solidworks" class="text-link">Voir le projet</a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="orange" class="section detail-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projet principal</p>
+            <h2>Orange Innovation — LiDAR / Mobile Mapping</h2>
+          </div>
+
+          <div class="project-header">
+            <div>
+              <p class="project-meta">02 mars 2026 – 28 août 2026 • Meylan / Grenoble • Orange Innovation</p>
+            </div>
+            <div class="tag-list large">
+              <span>ROS2 Jazzy</span>
+              <span>Livox Mid-70</span>
+              <span>Intel RealSense D435i</span>
+              <span>SLAM</span>
+              <span>CloudCompare</span>
+              <span>GNSS/INS Xsens</span>
+            </div>
+          </div>
+
+          <div class="project-body-grid">
+            <div>
+              <h3>Contexte</h3>
+              <p>
+                J’ai réalisé un stage de six mois au sein d’Orange Innovation sur le développement d’un système d’acquisition 3D ouvert destiné à la cartographie mobile et à l’inspection des infrastructures de télécommunications.
+              </p>
+              <h3>Problématique</h3>
+              <p>
+                Le point central du projet était de comprendre comment acquérir des données 3D tout en déplaçant la plateforme de mesure, tout en maintenant une représentation cohérente de l’environnement et une estimation fiable du mouvement.
+              </p>
+              <h3>Objectif</h3>
+              <p>
+                Le système a évolué progressivement d’une acquisition statique vers un prototype de cartographie mobile multi-capteurs, avec intégration LiDAR, estimation de pose et prise en main de la chaîne de traitement ROS2.
+              </p>
+            </div>
+            <div class="tech-box">
+              <h3>Travail réalisé</h3>
+              <ul>
+                <li>Mise en service du capteur Livox Mid-70</li>
+                <li>Câblage, alimentation et configuration réseau</li>
+                <li>Acquisition de nuages de points et visualisation Livox Viewer</li>
+                <li>Intégration dans ROS2 et exploitation de PointCloud2 / TF</li>
+                <li>Adaptation de nœuds ROS2 et programmation d’outils en Python et C++</li>
+                <li>Évaluation de RTAB-Map et KISS-ICP en contexte mobile</li>
+                <li>Intégration de la caméra Intel RealSense D435i</li>
+                <li>Calibration LiDAR–caméra et définition de la transformation extrinsèque entre les deux capteurs</li>
+                <li>Travail avec un système GNSS/INS Xsens : prise en main, intégration sous ROS2 et essais de calibration pour l’estimation de la position, de l’orientation et du mouvement</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-item">
+              <img src="assets/images/orange/montage_lidar_camera.jpg" alt="Montage du LiDAR Livox Mid-70 et de la caméra Intel RealSense D435i." loading="lazy" />
+              <figcaption>Montage du LiDAR Livox Mid-70 et de la caméra Intel RealSense D435i.</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="assets/images/orange/montage_reel.jpeg" alt="Montage matériel du système LiDAR : alimentation, Livox Converter 2.0 et Livox Mid-70." loading="lazy" />
+              <figcaption>Montage matériel du système LiDAR : alimentation, Livox Converter 2.0 et Livox Mid-70.</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="assets/images/orange/nuage_colorise_3d.png" alt="Nuage de points 3D colorisé obtenu par fusion LiDAR-caméra" loading="lazy" />
+              <figcaption>Nuage 3D colorisé : structure LiDAR complétée par l’information couleur de la caméra.</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="assets/images/orange/slam_vitesse_lente.png" alt="Cartographie 3D issue du test SLAM à faible vitesse" loading="lazy" />
+              <figcaption>Cartographie expérimentale à faible vitesse, plus cohérente que les essais à vitesse plus élevée.</figcaption>
+            </figure>
+          </div>
+
+          <div class="two-column">
+            <div>
+              <h3>Expérimentations</h3>
+              <p>
+                Une campagne de 40 essais statiques a permis d’évaluer la détection de câbles de télécommunication dans des conditions variables. Les observations qualitatives confirment que la distance, la réflectivité, le diamètre et l’environnement influencent fortement la visibilité du câble.
+              </p>
+              <p>
+                En déplacement, l’absence d’estimation de pose complète du capteur constitue une limite importante : l’agrégation directe des nuages de points successifs donne des cartes incohérentes si la trajectoire n’est pas compensée. C’est cette contrainte qui motive ensuite le travail sur la localisation, l’odométrie, le SLAM et la fusion de capteurs.
+              </p>
+            </div>
+            <div class="tech-box">
+              <h3>Résultats</h3>
+              <ul>
+                <li>Validation de la chaîne LiDAR sur Ubuntu 24.04 / ROS2 Jazzy</li>
+                <li>Acquisition et visualisation de nuages de points</li>
+                <li>Évaluation de RTAB-Map et KISS-ICP</li>
+                <li>Intégration d’une caméra RGB-D et exploration de la fusion LiDAR / caméra</li>
+                <li>Production d’un nuage colorisé exploitable en CloudCompare</li>
+                <li>Travail avec un système GNSS/INS Xsens : prise en main, intégration sous ROS2 et essais de calibration pour l’estimation de la position, de l’orientation et du mouvement</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="video-block">
+            <h3>Illustration visuelle</h3>
+            <video controls preload="metadata" poster="assets/images/orange/nuage_colorise_3d.png">
+              <source src="assets/videos/orange/Carte_3D.mp4" type="video/mp4" />
+              Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <section id="fablab" class="section detail-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Stage • IEMN / FabLab</p>
+            <h2>Système de mesure de force intégré aux vêtements</h2>
+          </div>
+
+          <div class="project-header">
+            <div>
+              <p class="project-meta">nov. 2024 – janv. 2025 • Valenciennes</p>
+            </div>
+            <div class="tag-list large">
+              <span>Arduino</span>
+              <span>Piézo</span>
+              <span>Électronique embarquée</span>
+              <span>Traitement du signal</span>
+              <span>KiCad</span>
+            </div>
+          </div>
+
+          <div class="project-body-grid">
+            <div>
+              <h3>Contexte</h3>
+              <p>
+                Ce stage s’est déroulé au sein de l’Institut d’Électronique, de Microélectronique et de Nanotechnologie (IEMN) à Valenciennes. Il visait le développement d’un système de mesure de force intégré aux vêtements, capable de détecter et d’analyser des impacts physiques à l’aide de capteurs piézoélectriques.
+              </p>
+              <h3>Objectif</h3>
+              <p>
+                L’objectif était de concevoir et améliorer une chaîne d’acquisition permettant de mesurer des impacts à l’aide de capteurs piézoélectriques, de traiter le signal et d’obtenir une indication rapide et exploitable.
+              </p>
+            </div>
+            <div class="tech-box">
+              <h3>Travail réalisé</h3>
+              <ul>
+                <li>Étude et mise en œuvre de capteurs piézoélectriques</li>
+                <li>Développement d’une chaîne d’acquisition analogique</li>
+                <li>Étude du pont de Wheatstone</li>
+                <li>Mise en œuvre d’un filtre RC passe-bas</li>
+                <li>Acquisition et traitement avec Arduino Uno R3</li>
+                <li>Visualisation des mesures avec Arduino IDE / Serial Plotter</li>
+                <li>Indicateur LED selon un seuil d’impact</li>
+                <li>Étude de la communication Bluetooth HC-05</li>
+                <li>Conception d’une première carte PCB sous KiCad</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-item">
+              <img src="assets/images/fablab/fablab_experimentale1.jpg" alt="Montage expérimental et capteurs piézoélectriques sur breadboard" loading="lazy" />
+              <figcaption>Montage expérimental de la chaîne d’acquisition et des capteurs.</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="assets/images/fablab/fablab_pcb.jpg" alt="Carte PCB de la chaîne de mesure sous KiCad" loading="lazy" />
+              <figcaption>Première conception de carte PCB sous KiCad pour compacter la chaîne électronique.</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="assets/images/fablab/fablab_resultat.png" alt="Visualisation des résultats expérimentaux du système de mesure" loading="lazy" />
+              <figcaption>Résultat expérimental de détection de l’impact et analyse des signaux.</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="assets/images/fablab/fablab_resultat_plotter.png" alt="Courbe de mesure affichée sur Arduino Serial Plotter" loading="lazy" />
+              <figcaption>Visualisation des variations de signal sur Arduino IDE / Serial Plotter.</figcaption>
+            </figure>
+          </div>
+
+          <div class="two-column">
+            <div>
+              <h3>Résultats / apprentissages</h3>
+              <p>
+                Ce projet a permis de travailler concrètement sur l’instrumentation de capteurs, le conditionnement du signal, l’acquisition analogique et les difficultés pratiques liées au bruit, à la saturation et au calibrage. Il a aussi mis en lumière les limites d’une première conception PCB, qui a permis d’identifier des pistes d’optimisation pour des versions ultérieures.
+              </p>
+            </div>
+            <div class="tech-box">
+              <h3>Points clés</h3>
+              <ul>
+                <li>Conditionnement de signal et filtrage RC</li>
+                <li>Analyse du bruit et des saturations</li>
+                <li>Calibration et essais expérimentaux</li>
+                <li>Conception électronique compacte sous KiCad</li>
+                <li>Détection d’impacts avec indicateur visuel</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="codesys" class="section alt detail-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projet personnel</p>
+            <h2>Commande de feux de circulation sous CODESYS</h2>
+          </div>
+
+          <div class="project-body-grid">
+            <div>
+              <p>
+                Ce projet porte sur la programmation d’un cycle séquentiel de feux de circulation pour deux directions, en simulation. La logique a été structurée autour de temporisations et de détection de front afin de garantir une alternance sûre entre états verts, orange et rouge.
+              </p>
+              <h3>Architecture logique</h3>
+              <p>
+                Le système est piloté par un automate programmable sous CODESYS, avec séquences de commande, variables d’état et interface de visualisation pour surveiller les états des feux et les temporisations.
+              </p>
+            </div>
+            <div class="tech-box">
+              <h3>Éléments techniques</h3>
+              <ul>
+                <li>Programmation en Ladder Diagram</li>
+                <li>TON timers</li>
+                <li>R_TRIG</li>
+                <li>Variables d’état et séquencement</li>
+                <li>Simulation et débogage</li>
+                <li>Visualisation / HMI</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-grid single-row">
+            <figure class="gallery-item">
+              <img src="assets/images/codesys/feu_de_circulation.png" alt="Schéma de feux de circulation en simulation" loading="lazy" />
+              <figcaption>Visualisation des deux feux de circulation sous CODESYS.</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="assets/images/codesys/PLC_PRG.png" alt="Schéma du programme Ladder de commande de feux" loading="lazy" />
+              <figcaption>Extrait du programme Ladder principal.</figcaption>
+            </figure>
+          </div>
+
+          <div class="video-block">
+            <h3>Simulation en fonctionnement</h3>
+            <div class="video-grid two-col">
+              <video controls preload="metadata" poster="assets/images/codesys/feu_de_circulation.png">
+                <source src="assets/videos/codesys/Ladder.mp4" type="video/mp4" />
+                Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+              </video>
+              <video controls preload="metadata" poster="assets/images/codesys/feu_de_circulation.png">
+                <source src="assets/videos/codesys/Feu_de_circulation.mp4" type="video/mp4" />
+                Votre navigateur ne supporte pas la lecture de vidéos HTML5.
+              </video>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="plp" class="section detail-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Projet académique</p>
+            <h2>Plateforme d’actionnement pour micro-pinces souples</h2>
+          </div>
+
+          <div class="project-body-grid">
+            <div>
+              <p>
+                Ce projet, mené dans le cadre d’un travail académique, vise à développer et intégrer une plateforme d’actionnement pour micro-pinces souples. Il reprend les enjeux d’intégration mécanique, électronique et contrôle à l’échelle micro, avec validation expérimentale et conception d’un démonstrateur fonctionnel.
+              </p>
+              <p>
+                Le travail explore l’intégration de matériaux électroactifs et de structures souples dans une chaîne de commande et de mesure, ainsi que la conception d’une carte électronique dédiée pour l’actionnement et la gestion des signaux.
+              </p>
+            </div>
+            <div class="tech-box">
+              <h3>Technologies observées</h3>
+              <ul>
+                <li>Micro-actionnement</li>
+                <li>KiCad</li>
+                <li>Conception PCB</li>
+                <li>Prototype mécanique</li>
+                <li>Validation fonctionnelle</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-grid single-row">
+            <figure class="gallery-item">
+              <img src="assets/images/plp/plp14.jpeg" alt="Carte électronique de commande du démonstrateur." loading="lazy" />
+              <figcaption>Carte électronique de commande intégrée au démonstrateur.</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="assets/images/plp/plp10.png" alt="Routage de la carte PCB sous KiCad." loading="lazy" />
+              <figcaption>Routage de la carte PCB sous KiCad.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="solidworks" class="section detail-section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Travaux personnels</p>
+            <h2>Travaux de conception CAO sous SolidWorks</h2>
+          </div>
+
+          <div class="project-body-grid">
+            <div>
+              <p>
+                Ces modèles ont été réalisés dans un cadre de pratique personnelle pour développer les compétences de modélisation 3D, de création d’esquisses, d’extrusion, d’enlèvement de matière et de conception de pièces mécaniques.
+              </p>
+            </div>
+            <div class="tech-box">
+              <h3>Focus</h3>
+              <ul>
+                <li>SolidWorks</li>
+                <li>Modélisation 3D</li>
+                <li>Esquisses paramétriques</li>
+                <li>Conception mécanique</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="gallery-grid">
+            <figure class="gallery-item">
+              <img src="assets/images/solidworks/CAO_1.png" alt="Pièce mécanique avec géométrie en escalier, perçage et contraintes angulaires" loading="lazy" />
+              <figcaption>Exercice de modélisation d’une pièce mécanique avec géométrie en escalier, perçage et contraintes angulaires.</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="assets/images/solidworks/CAO_2.png" alt="Pièce mécanique avec formes cylindriques et raccordement géométrique" loading="lazy" />
+              <figcaption>Modélisation d’une pièce mécanique intégrant des formes cylindriques, perçages et raccordement géométrique.</figcaption>
+            </figure>
+            <figure class="gallery-item">
+              <img src="assets/images/solidworks/CAO_2.1.png" alt="Modèle 3D d’une pièce mécanique en vue isométrique" loading="lazy" />
+              <figcaption>Modèle 3D d’une pièce mécanique développée dans un objectif de pratique de conception paramétrique.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section id="competences" class="section">
+        <div class="container">
+          <div class="section-heading">
+            <p class="eyebrow">Compétences</p>
+            <h2>Domaines d’intérêt et compétences techniques</h2>
+          </div>
+
+          <div class="skills-grid">
+            <div class="skill-block">
+              <h3>Robotique, perception & localisation</h3>
+              <ul>
+                <li>ROS2</li>
+                <li>SLAM</li>
+                <li>LiDAR</li>
+                <li>RGB-D</li>
+                <li>RTAB-Map</li>
+                <li>KISS-ICP</li>
+                <li>RViz2</li>
+                <li>ICP</li>
+                <li>TF</li>
+                <li>rosbag</li>
+                <li>Calibration multi-capteurs</li>
+                <li>Nuages de points</li>
+                <li>CloudCompare</li>
+                <li>Fusion de capteurs</li>
+                <li>GNSS / INS</li>
+                <li>Computer Vision</li>
+              </ul>
+            </div>
+            <div class="skill-block">
+              <h3>Automatisme industriel</h3>
+              <ul>
+                <li>CODESYS</li>
+                <li>PLC</li>
+                <li>Ladder</li>
+                <li>Temporisateurs TON</li>
+                <li>R_TRIG</li>
+                <li>IHM / visualisation</li>
+                <li>Logique séquentielle</li>
+                <li>Simulation et débogage</li>
+              </ul>
+            </div>
+            <div class="skill-block">
+              <h3>Développement & systèmes embarqués</h3>
+              <ul>
+                <li>Python</li>
+                <li>NumPy</li>
+                <li>SciPy</li>
+                <li>Matplotlib</li>
+                <li>C++</li>
+                <li>C</li>
+                <li>Linux / Ubuntu</li>
+                <li>Git</li>
+                <li>Arduino</li>
+                <li>ESP32</li>
+                <li>STM32</li>
+              </ul>
+            </div>
+            <div class="skill-block">
+              <h3>CAO, simulation & mécanique</h3>
+              <ul>
+                <li>SolidWorks</li>
+                <li>CATIA V5</li>
+                <li>MATLAB / Simulink</li>
+                <li>20-sim</li>
+                <li>ANSYS</li>
+                <li>Modélisation 3D</li>
+                <li>Conception mécanique</li>
+              </ul>
+            </div>
+            <div class="skill-block">
+              <h3>Électronique & instrumentation</h3>
+              <ul>
+                <li>KiCad</li>
+                <li>Conception de PCB</li>
+                <li>Capteurs piézoélectriques</li>
+                <li>Acquisition analogique</li>
+                <li>Traitement / conditionnement du signal</li>
+                <li>I2C</li>
+                <li>SPI</li>
+                <li>UART</li>
+                <li>LabVIEW</li>
+                <li>Électronique embarquée</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <p class="eyebrow">Contact</p>
+          <h3>Omar Dayan</h3>
+          <p class="footer-subtitle">Mécatronique • Robotique</p>
+          <div class="contact-list">
+            <a href="mailto:dayanomarabd@gmail.com">dayanomarabd@gmail.com</a>
+            <a href="tel:+33625425821">+33 6 25 42 58 21</a>
+          </div>
+        </div>
+        <div class="footer-links">
+          <a href="mailto:dayanomarabd@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/omar-dayan-1240782a7/" target="_blank" rel="noreferrer">LinkedIn</a>
+          <a href="assets/documents/CV_Omar_Dayan.pdf" target="_blank" rel="noreferrer">CV</a>
+        </div>
+      </div>
+    </footer>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-close" aria-label="Fermer la vue agrandie">×</button>
+      <img src="" alt="Vue agrandie du projet" id="lightbox-image" />
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
